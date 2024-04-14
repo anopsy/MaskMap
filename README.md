@@ -1,4 +1,5 @@
 ![image](https://github.com/anopsy/hackher/assets/74981211/474514db-17e2-46a4-b2ff-21d944bdd44a)
+
 Using the power of NLP to gather data about most common masking behaviours in order to extend the database of masking behaviours in female ASD patients and to help patients and doctors identify them
 
 A recent study suggested that 80% of Autistic women remain undiagnosed at the age of 18. It can be due to two main reasons:
