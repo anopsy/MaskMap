@@ -1,10 +1,11 @@
 # MaskMap: Decoding the Hidden Spectrum
-## CATEGORY 2 ✦ Advancing Accessibility & Precision of Diagnosis for Neurodivergent Girls
-## Team Chameleons
-### Magdalena Kowalczuk
-### Bartosz Kordaszewski
+### CATEGORY 2 ✦ Advancing Accessibility & Precision of Diagnosis for Neurodivergent Girls
+### Team Chameleons
+#### Magdalena Kowalczuk - Data and ML
+#### Bartosz Kordaszewski - Frontend
  
-![image](https://github.com/anopsy/hackher/assets/74981211/474514db-17e2-46a4-b2ff-21d944bdd44a)
+![image](https://github.com/anopsy/hackher/assets/74981211/b865640f-4068-466c-bead-5a02e4f08140)
+
 
 Using the power of NLP to gather data about most common masking behaviours in order to extend the database of masking behaviours in female ASD patients and to help patients and doctors identify them
 
