@@ -6,8 +6,8 @@ import random
 
 reddit = praw.Reddit(
     client_id="FQ1mxfCo74PEEBFDH94DPw",
-    client_secret="QTTXx5llyMdHLyEqvyDtUlMmV-8KFw",
-    password="DejMieDane2137",
+    client_secret="***",
+    password="***",
     user_agent="linux:maskingmap:v1 (by u/No_Pitch4042)",
     username="No_Pitch4042"
 )
