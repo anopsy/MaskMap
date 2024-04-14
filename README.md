@@ -1,3 +1,9 @@
+# MaskMap: Decoding the Hidden Spectrum
+## CATEGORY 2 ✦ Advancing Accessibility & Precision of Diagnosis for Neurodivergent Girls
+## Team Chameleons
+### Magdalena Kowalczuk
+### Bartosz Kordaszewski
+ 
 ![image](https://github.com/anopsy/hackher/assets/74981211/474514db-17e2-46a4-b2ff-21d944bdd44a)
 
 Using the power of NLP to gather data about most common masking behaviours in order to extend the database of masking behaviours in female ASD patients and to help patients and doctors identify them
@@ -10,9 +16,9 @@ MaskMap is based on recent research that implicated that LLM-based models can be
 Our approach:
 We will gather textual data of AM, anxiety and depression experiences by scraping it from social media, fully anonymizing it and feeding it into a classification model:
 Our goals are: 
-# 1) to create a tool, where you can get a probability of the symptom being AM/anxiety/depression. 
-# 2) to gather clean data from diagnosed female patients to improve the model in the future
-# 3) create more awareness about the AM symptoms and consequences of AM
+## 1) to create a tool, where you can get a probability of the symptom being AM/anxiety/depression. 
+## 2) to gather clean data from diagnosed female patients to improve the model in the future
+## 3) create more awareness about the AM symptoms and consequences of AM
 
 ## Description: 
 We’re addressing the significant issue of undiagnosed autism in women, particularly those over 18. The current diagnostic process often overlooks autistic masking, leading to misdiagnoses and untreated autism.
