@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.json
-    prediction = data['text'].upper()  # Call your model inference function
+    prediction = data['text'].upper()
     return {'prediction': prediction}
 
 if __name__ == '__main__':
