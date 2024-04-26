@@ -23,14 +23,11 @@ urls = [
 
 with open('/home/anopsy/Code/hackher/data/anxiety.csv', 'a', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    # Write the header row if the file is empty:
     if file.tell() == 0:
         writer.writerow(["Comment"])
 
-    #iterate over all URLs in the list
     for url in urls:
         submission = reddit.submission(url=url)
-        # Replace MoreComments objects with all available comments
         submission.comments.replace_more(limit=None)
         for comment in submission.comments.list():
                 # Write each comment to a new row in the CSV
