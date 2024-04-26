@@ -16,7 +16,6 @@ vectorizer = TfidfVectorizer()
 vectorizer.fit_transform(df['Comment'])
 
 
-# This is your model inference module
 loaded_model = joblib.load('/home/anopsy/Code/hackher/model/tunedXGB_model.joblib')
 
 app = Flask(__name__)
