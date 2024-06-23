@@ -2,7 +2,7 @@
 #### Magdalena Kowalczuk - Data and ML
 #### Bartosz Kordaszewski - Frontend
 ## 1. Description
-Creating a prototype of a diagnosis support tool using the power of NLP to gather data about common masking behaviors to extend the database of masking behaviors in female ASD patients and to help patients and doctors identify them.
+Creating a prototype of a diagnosis support tool using the power of NLP to identify symptoms of Autistic Masking (AM) and help medical staff and patients differentiate between anxiety, depression, and the long-term effects of AM and to gather data about common masking behaviors to extend the database of masking behaviors in female ASD patients and to help patients and doctors identify them.
 
 A recent study suggested that 80% of autistic women remain undiagnosed at the age of 18. This can be due to two main reasons: They tend to “mask” their symptoms, suppressing their own behaviors and imitating others to blend in, leading to late or no diagnosis. We will further refer to this as AM - Autistic Masking. The anxiety and depression resulting from this long-term masking can lead to misdiagnosis, as these mental health conditions might be diagnosed instead of the underlying autism. Our solution, MaskMap, will help identify symptoms of AM and enable both medical staff and patients to better discern between anxiety, depression symptoms, and the long-term effects of AM. MaskMap is based on recent research that suggests that LLM-based models can be better at diagnosing than human doctors.
 
