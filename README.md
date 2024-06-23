@@ -1,25 +1,63 @@
 # MaskMap: Decoding the Hidden Spectrum
-### CATEGORY 2 ✦ Advancing Accessibility & Precision of Diagnosis for Neurodivergent Girls
-### Team Chameleons
 #### Magdalena Kowalczuk - Data and ML
 #### Bartosz Kordaszewski - Frontend
- 
+## 1. Description
+Creating a prototype of a diagnosis support tool using the power of NLP to gather data about common masking behaviors to extend the database of masking behaviors in female ASD patients and to help patients and doctors identify them.
+
+A recent study suggested that 80% of autistic women remain undiagnosed at the age of 18. This can be due to two main reasons: They tend to “mask” their symptoms, suppressing their own behaviors and imitating others to blend in, leading to late or no diagnosis. We will further refer to this as AM - Autistic Masking. The anxiety and depression resulting from this long-term masking can lead to misdiagnosis, as these mental health conditions might be diagnosed instead of the underlying autism. Our solution, MaskMap, will help identify symptoms of AM and enable both medical staff and patients to better discern between anxiety, depression symptoms, and the long-term effects of AM. MaskMap is based on recent research that suggests that LLM-based models can be better at diagnosing than human doctors.
+
+#### Our approach:
+During our project, we successfully developed a prototype of a diagnosis support tool called MaskMap. This tool aims to identify symptoms of Autistic Masking (AM) and help medical staff and patients differentiate between anxiety, depression, and the long-term effects of AM. Here's how we achieved this:
+
+We started by gathering textual data related to AM, anxiety, and depression from social media, specifically using the Reddit API. This allowed us to collect a diverse range of real-life experiences and symptoms shared by individuals.
+
+Next, we processed the collected data using NLTK (Natural Language Toolkit). This involved cleaning and preparing the data for analysis, ensuring that it was in a suitable format for building our model.
+
+With the processed data, we built a classification model capable of distinguishing between AM, anxiety, and depression. This model leverages the power of NLP to provide accurate predictions and insights.
+
+Finally, we created a website with an intuitive interface for both prediction and data collection. This platform allows users to input their experiences and receive feedback, while also contributing to our growing database of masking behaviors.
+   
+## 2. Next Steps
+The following steps could further enhance the MaskMap project :
+
+First, we could consult with domain and ethics experts. This consultation is crucial to ensure that our project is based on methodologically collected patient data and that patients' privacy and interests are protected throughout the process.
+
+Next, we'd aim to improve our data collection process by collaborating with specialists. This cooperation would help us work with high-quality labeled data, which is essential for the accuracy and reliability of our model.
+
+We could also conduct experiments with textual data processing, vectorization, and embeddings. These experiments will help us refine our techniques and improve the overall performance of our model.
+
+Finally, we would rigorously evaluate our model's performance metrics. This evaluation would provide insights into the effectiveness of our model and identify areas for further improvement.
+
+
+
+## 3. Lessons learned
+Throughout this project, I gained several valuable insights and skills:
+
+Firstly, designing a prototype of a tool taught me that I am capable of creating a functional prototype of a data-based tool. This experience was both challenging and rewarding.
+
+Using the Reddit API and YTTranscriptAPI, I discovered that these platforms are excellent free resources for gathering textual data. This realization has broadened my understanding of available data sources that I can utilize in future projects.
+
+In performing basic textual data processing, I delved deeper into the use of vectorizers. This enhanced my ability to transform and manipulate text data effectively.
+
+Building a simple API using FastAPI revealed that it is an excellent and easy-to-use framework for constructing REST APIs. This knowledge will be highly beneficial for future API development.
+
+Integrating the API with the frontend was a particularly satisfying experience. While I had some experience with this process using Golang, successfully accomplishing it with a Python-based API added to my skill set.
+
+Finally, brainstorming, decision-making, and cooperating on a project highlighted the importance of quick decision-making and scope management. We had to make rapid decisions and limit the scope of our project to ensure we completed the hackathon with a simple yet functional solution.
+
+
+
+
+
+
+
+
+
+
 ![image](https://github.com/anopsy/hackher/assets/74981211/b865640f-4068-466c-bead-5a02e4f08140)
 
 
-Using the power of NLP to gather data about most common masking behaviours in order to extend the database of masking behaviours in female ASD patients and to help patients and doctors identify them
 
-A recent study suggested that 80% of Autistic women remain undiagnosed at the age of 18. It can be due to two main reasons:
- They tend to “mask” their symptoms, suppressing their own behaviors and imitating others to blend in, leading to late or no diagnosis. We will further refer to it as AM - Autistic Masking. 
-The anxiety and depression resulting from this long-term masking can lead to misdiagnosis, as these mental health conditions might be diagnosed instead of the underlying autism.
-Our Solution - MaskMap will help identify symptoms of AM and enable both medical staff as patients to better discern between anxiety, depression symptoms and long-term effects of AM. 
-MaskMap is based on recent research that implicated that LLM-based models can be better at diagnosing than human doctors.
-Our approach:
-We will gather textual data of AM, anxiety and depression experiences by scraping it from social media, fully anonymizing it and feeding it into a classification model:
-Our goals are: 
-## 1) to create a tool, where you can get a probability of the symptom being AM/anxiety/depression. 
-## 2) to gather clean data from diagnosed female patients to improve the model in the future
-## 3) create more awareness about the AM symptoms and consequences of AM
 
 ## Description: 
 We’re addressing the significant issue of undiagnosed autism in women, particularly those over 18. The current diagnostic process often overlooks autistic masking, leading to misdiagnoses and untreated autism.
