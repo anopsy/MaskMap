@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>MaskMap</title>
+</head>
+<body>
+    <nav>
+        <div id="navbar">
+            <ul>
+                <li><a href="#startpage">Start</a></li>
+                <li><a href="#test">Test</a></li>
+                <li><a href="#footer">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="heading">
+        <div class="sec-cont">
+            <h1 id="startpage"> MaskMap: Decoding the Hidden Spectrum</h1>
+            <p>
+                <b>Solution Details:</b> Our solution, MaskMap, leverages machine learning and data from over 14,000 tokens of user experiences on Reddit. It uses LinearSVC and XGBClassifier models to decode the hidden spectrum of autism. <br>
+                <b>Stakeholders/Engagement:</b> This solution benefits autistic women, their families, and medical specialists. It also opens opportunities for collaboration with data scientists, AI experts, and mental health advocates. <br>               
+                <b>Benchmark & Alternatives:</b> Current industry benchmarks focus on traditional diagnostic methods. Our solution is innovative as it uses AI and data analysis, a largely unexplored area in autism diagnosis. <br>               
+                <b>Relevance & Alignment:</b> Our approach directly addresses the issue of undiagnosed autism in women, contributing to broader efforts to improve women’s mental health. <br>              
+                <b>Value & Success Criteria:</b> MaskMap offers a new avenue for autism diagnosis, potentially reducing misdiagnoses and improving mental health outcomes. Its success can be measured by its accuracy and its adoption by medical professionals. <br>
+            </p>
+            <p>
+                <b>Ethical, Inclusion, Diversity & Equality (IDE):</b> MaskMap aligns with IDE principles by addressing a gender disparity in autism diagnosis. We’ll measure this through user feedback and diagnostic outcomes. <br>
+                <b>Feasibility and Scalability:</b> The solution is feasible, given the availability of data and AI technology. It’s scalable, with potential for multilingual support and application to other mental health conditions. <br>
+                <b>Assumptions and Dependencies:</b> The solution assumes access to clean, anonymized data. It depends on technological infrastructure and acceptance by the medical community. <br>
+                <b>Potential Future Development and Direction:</b> We envision MaskMap evolving to include more diverse data sources and improved AI models. We aim for broader adoption within the medical community and expansion to other underdiagnosed conditions. <br>
+            </p>
+
+            <div class="podkreslnik"></div>
+        </div>
+            <h2>Share your experience and find out how propable is that's an autistic experience</h2>
+            <div class="arrow-cont">
+                <i class="fa-solid fa-arrow-down-long"></i><i class="fa-solid fa-arrow-down-long"></i><i class="fa-solid fa-arrow-down-long"></i><i class="fa-solid fa-arrow-down-long"></i><i class="fa-solid fa-arrow-down-long"></i>
+            </div>     
+    </section>
+
+    <div id="test" class="tabs" >
+        <input class="input" name="tabs" type="radio" id="tab-1" checked="checked"/>
+        <label class="label" for="tab-1">Question/Answer</label>
+            <div class="panel">
+                <div class="quest-block">
+                    <h1>Question:</h1>
+                    <p id="question"></p>
+                    <button onclick="displayRandomQuestion()" id="start-btn">Show question</button>
+                </div>
+                <!-- label do wpisywania tekstu-->
+                <form id="myForm">
+                    <label for="fname"><h2 class="h2-form">Your Answer:</h2></label><br>
+                    <textarea id="fname" name="fname" rows="4" cols="50"></textarea><br>
+                        <!--
+                            <input type="radio" id="option1" name="option" value="1">
+                        <label for="option1">I'm diagnosed with Autism Spectrum </label>
+                        <input type="radio" id="option2" name="option" value="2">
+                        <label for="option2">Disorder</label>
+                        <input type="radio" id="option3" name="option" value="3">
+                        <label for="option3">Anxiety Disorder</label>
+                        <input type="radio" id="option4" name="option" value="4">
+                        <label for="option4">Depression</label>
+                        <input type="radio" id="option5" name="option" value="5">
+                        <label for="option5">None of the above</label>
+                        -->
+                    <input type="submit" value="Submit" id="sub-btn">
+                </form>
+
+                <div class="ans">
+                    <h1>Result:</h1>
+                    <p id="question-result"></p>
+                </div>
+            </div>
+
+        <input class="input" name="tabs" type="radio" id="tab-2"/>
+        <label class="label" for="tab-2">Freestyle</label>
+        <div class="panel">
+          <h1>Freestyle</h1>
+          <form id="myForm">
+            <label for="fname"><h2 class="h2-form">Your Answer:</h2></label><br>
+            <textarea id="fname" name="fname" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit" id="sub-btn">
+        </form>
+        <div class="ans">
+            <h1>Result:</h1>
+            <p id="question-result">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officia modi odio error doloribus ea. Accusantium minima similique mollitia modi, deleniti accusamus tempora, suscipit exercitationem sit nesciunt quo dignissimos aut!</p>
+        </div>
+        </div>   
+           
+    </div>
+
+    <footer id="footer">
+        <div class="column about-text">
+            <div class="about-col left"><p>We’re addressing the significant issue of undiagnosed autism in women, particularly those over 18. The current diagnostic process often overlooks autistic masking, leading to misdiagnoses and untreated autism </p></div>
+            <div class="about-col right"><p>This project represents a significant step towards more inclusive and accurate autism diagnosis, harnessing the power of AI for better mental health outcomes. Thank you. 😊</p></div>
+        </div>
+        <div class="column social-media">
+            <ul>
+                <li><i class="fa-brands fa-square-x-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-github"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+            </ul>
+        </div>
+        <div class="column contact">
+            <p><i class="fa-solid fa-envelope"></i><a href="mailto: email@email.com"> email@email.com</a> </p>
+            <p><i class="fa-solid fa-phone"></i> +2137 666 69 69</p>
+        </div>
+    </footer>
+
+    <script src="code.js"></script>
+</body>
+</html>
